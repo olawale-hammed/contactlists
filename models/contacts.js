@@ -31,6 +31,10 @@ const contact = sequelize.define('contacts', {
     pin:{
         type: Sequelize.STRING,
         required: true
+    },
+    balance:{
+        type: Sequelize.INTEGER,
+        required: true
     }
 });
 
